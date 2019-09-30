@@ -11,10 +11,11 @@ void setup()
 }
 void draw()
 {
-	stroke(Math.random() * 255, Math.random() * 255, Math.random() * 255);
+	
 	while(endX < 300){
+		stroke((float)(Math.random() * 255), (float)(Math.random() * 255), (float)(Math.random() * 255));
 		endX = startX + (int)(Math.random() * 9);
-		endY = startY + (int)(Math.random * 18 - 9);
+		endY = startY + (int)(Math.random() * 18 - 9);
 		line(startX, startY, endX, endY);
 		startX = endX;
 		startY = endY;
