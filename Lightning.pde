@@ -24,10 +24,10 @@ void draw()
 }
 void mousePressed()
 {
-	int startX = 0;
-	int startY = 150;
-	int endX = 0;
-	int endY = 150;
+	startX = 0;
+	startY = 150;
+	endX = 0;
+	endY = 150;
 
 }
 
